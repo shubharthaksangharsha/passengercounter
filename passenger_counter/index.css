@@ -24,7 +24,7 @@ h2{
 
 button{
     display: block;
-    transition-duration: 0.4s;y
+
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -38,17 +38,17 @@ button{
 p{
     text-align : center;
     font-size : 20px;
-    margin-top : 0;
+    margin-top : 0px;
     margin-bottom : 20px;
 }
 #increment-btn{
-    hover: red;
+ 
     color: black;
 }
 
 #save-btn{
     color: black;
-    hover: pink;
+ 
 }
 #increment-btn:hover{
     
@@ -57,4 +57,25 @@ p{
 #save-btn:hover{
     
     background: green;
+}
+#reset-btn{
+    color: black;
+    
+}
+#reset-btn:hover{
+    background: blue;
+}
+
+h7{
+    position : absolute;
+    right: 6;
+    bottom : 0;
+}
+#welcome{
+    text-decoration: overline;
+    text-decoration: underline;
+    letter-spacing : 3px;
+    text-shadow : 1px 1px 1px green;
+    margin-bottom: 20px;
+    color: #800000;
 }
